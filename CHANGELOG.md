@@ -69,3 +69,22 @@ Made minor changes to the dimension type to add compatability with the new versi
 In the last update, I added proper mod packages for Minecraft version 1.21.11. For the new version, however, I had to redo the whole thing for several reasons. The consequence of this is that it no longer relies on the architecture API, but is now fully independent. However, this also forced me to choose an ecosystem, as I had to code everything separately for Fabric and Neoforge.
 
 As there is more demand for the Fabric version, I will discontinue the NeoForge packaging and only create standard packaging similar to past versions. I apologise for this. However, if demand persists, please contact me on GitHub and I will consider it.
+
+# 3.2 (26.2)
+## #14 Migraded to Version 26.2
+
+Changed version numbers to include the newer version. Rebuild fabric mod to support the newest Version.
+
+## #15 Added Pocket Locator Compass
+
+There's now a new item to help you locate your placed pocket! Once obtained, simply right-click to bind it to your placed pocket. You can rebind it at any time. You can craft it using this recipe:
+
+![Pocket Locator Compass Recipe](https://cdn.modrinth.com/data/cached_images/eae5ed647bf6b2922a2d01b0eb887dfdf801b058.png)
+
+## #16 Added Error Codes
+
+Error codes will now be displayed when bugs occur to help you solve them by following the instructions in the [Documentation](https://github.com/MavLeague/pocket_dimension/blob/main/SUPPORT.md).
+
+## #17 Added helper function
+
+There's now a new function called ```pocket_dimension:force_pocket_chunkload``` which can help you solve bugs described in the [Documentation](https://github.com/MavLeague/pocket_dimension/blob/main/SUPPORT.md).
