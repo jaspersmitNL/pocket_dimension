@@ -1,11 +1,11 @@
 {
     "pack": {
-        "description": "Ressourcepack for Pocket Dimension",
+        "description": "Resource pack for Pocket Dimensions",
 
         "min_format": 63,
-        "max_format": 88,
-        "pack_format": 88,
-        "supported_formats": [63, 88]
+        "max_format": [97, 1],
+        "pack_format": 97,
+        "supported_formats": [63, 97]
     },
     "overlays": {
         "entries": [

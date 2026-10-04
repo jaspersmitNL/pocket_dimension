@@ -1,11 +1,11 @@
 {
     "pack": {
-        "description": "This Datapack adds an Item with a small realm inside!\n§2Version 26.2.3.2",
+        "description": "Pocket Dimensions | Version 26.3.3.3",
 
         "min_format": 80,
-        "max_format": 107,
-        "pack_format": 107,
-        "supported_formats": [80, 107]
+        "max_format": [121, 0],
+        "pack_format": 121,
+        "supported_formats": [80, 121]
     },
     "overlays": {
         "entries": [
@@ -14,6 +14,12 @@
                 "min_format": 80,
                 "max_format": 88,
                 "formats": [80, 88]
+            },
+            {
+                "directory": "pre_26_3",
+                "min_format": 89,
+                "max_format": [107, 1],
+                "formats": [89, 107]
             }
         ]
     }

@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:armor_stand",
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.pocket_dimension.unstable_pocket"},
                 "minecraft:rarity": "epic",

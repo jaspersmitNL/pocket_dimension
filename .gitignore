@@ -4,3 +4,4 @@
 *.ffs_batch
 .notion-ignore.url
 *.disabled
+dist/

@@ -5,7 +5,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "pocket_dimension:unstable_pocket"
+          "model": "pocket_dimension:item/unstable_pocket"
         },
         "when": [
           "gui",
@@ -17,7 +17,7 @@
     "property": "minecraft:display_context",
     "fallback": {
       "type": "minecraft:model",
-      "model": "pocket_dimension:pocket_display/outside"
+      "model": "pocket_dimension:item/pocket_display/outside"
     }
   }
 }

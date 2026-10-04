@@ -88,3 +88,14 @@ Error codes will now be displayed when bugs occur to help you solve them by foll
 ## #17 Added helper function
 
 There's now a new function called ```pocket_dimension:force_pocket_chunkload``` which can help you solve bugs described in the [Documentation](https://github.com/MavLeague/pocket_dimension/blob/main/SUPPORT.md).
+
+# 3.3 (26.3)
+
+- Updated data and resource pack metadata for Minecraft Java 26.3.
+- Updated loot modifiers, predicates, and the end-gateway advancement for the 26.3 data format.
+- Migrated player-location criteria in the pocket exit advancements to the 26.3 predicate format.
+- Added a pre-26.3 data overlay so older supported versions keep their earlier schemas.
+- Fixed two resource model paths that appeared as missing models in the 26.3 client log.
+- Fixed placement validation to check the room bound to the item, including in the 1.21.10 overlay.
+- Fixed reconnect recovery to use the player's saved exit record, with a world-spawn fallback if no record exists.
+- Added a build script that creates separate data and resource pack archives.

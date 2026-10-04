@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:carrot_on_a_stick",
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.pocket_dimension.pocket"},
                 "minecraft:rarity": "epic",

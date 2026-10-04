@@ -1,5 +1,10 @@
 # Error Codes
 
+## Minecraft Java 26.3 installation
+
+Build the two archives with `python tools/build_packs.py`. Put the data archive in the world's `datapacks` folder and enable the resource archive on each client. Both archives must be from the same release. Back up the world before updating; existing pocket rooms are stored in the world and are not recreated by the pack update.
+
+
 | Error Code | Error | Solution |
 |------------|--------|--------|
 |100 |Custom Dimension ```pocket_dimension:realm``` has not been loaded correctly|Restart your world or server|

@@ -11,11 +11,13 @@ After creating the item, right-click to activate and enter it. There is only one
 Once you have activated your room, you can place it in the Overworld. Don't worry — if someone tries to destroy it while you're inside, you'll feel it. However, other players can also enter it as long as it is placed. If it gets destroyed, everyone inside will leave the pocket instantly.
 
 ## Installation 
-Please make sure to install the resource pack as well when using the datapack. It is mandatory to see any textures.
+For Minecraft Java 26.3, run `python tools/build_packs.py` and install `dist/PocketDimensions-26.3-data.zip` in your world's `datapacks` folder. Install `dist/PocketDimensions-26.3-resource.zip` as a client resource pack to see the custom items and displays. Use the matching data and resource pack versions together. Back up existing worlds before upgrading.
+
+The pack metadata retains the `1_21_10` overlay and adds a `pre_26_3` data overlay for older Minecraft versions. Check the in-game pack screen and server log when using an older version.
 
 When using the mod, it's not necessary.
 
-If you are installing the datapack on a server, you can also install it as an server side pack. 
+On a server, install the data pack on the server and offer the resource pack to players.
 
 ## Help
 In case you encounter some problems, have some questions, or just want to learn more about the pack, feel free to read the [Documentation](SUPPORT.md).

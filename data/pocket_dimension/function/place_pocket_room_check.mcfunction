@@ -1,0 +1,1 @@
+$execute in pocket_dimension:realm if entity @n[type=marker,tag=pocket_dimension.anchor,nbt={data:{id:$(pocket_id)}},distance=0..] run data modify storage pocket_dimension:temp room_exists set value 1
